@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--{{{-->
+  <meta charset="utf-8">
+
+  <title>Ionic Overview</title>
+
+  <meta name="description" content="A overview of Ionic 2">
+  <meta name="author" content="Dan Bucholtz - forked from Adam Bradley">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/ionic.css" id="theme">
+
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/oceanicnext.css">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Printing and PDF exports -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<!--}}}-->
+
+<body>
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      <!-- intro -->
+      <section>
+        <img src="img/ionic-sdk-landscape-white-1024.png" class="logo" width="550" style="display:block; margin:auto; margin-bottom:100px;">
+        <h1 style="font-size:75px">Ionic - Supercharged app development</h1>
+        <p>Dan Bucholtz | <a href="https://twitter.com/danbucholtz">@danbucholtz</a></p>
+      </section>
+
+      <section>
+        <p><b>What is Ionic?</b></p>
+        <p>Build cross-platform apps using web technologies</p>
+        <p>Web Apps - not Web Sites</p>
+        <p>HTML, JS, CSS</p>
+      </section>
+
+      <section>
+        <p><b>What is Ionic?</b></p>
+        <p>"Native" iOS/Android/Windows (Cordova)</p>
+        <p>"Native" Desktop Apps (Electron)</p>
+        <P>Progressive Web Apps</p>
+      </section>
+
+      <section>
+        <p><b>What is Ionic?</b></p>
+        <p>100% free and open-source, forever</p>
+        <br/>
+        <p>Large ecosystem of services to support indie apps to fortune 100 companies</p>
+      </section>
+
+      <section>
+        <p><b>How?</b></p>
+        <p>Write an Angular app</p>
+        <p>Output binary for each platform</p>
+        <p>Platform continuity makes app look great on every platform</p>
+      </section>
+
+      <section>
+        <p><b>iOS, Material Design, Windows Universal</b></p>
+        <img src="img/conference.jpg"/>
+      </section>
+
+      <section>
+        <p>Bootstrap makes things easy for <b>web sites</b></p>
+        <p>Ionic makes things easy for <b>web apps</b></p>
+      </section>
+
+      <section>
+        <p><b>Batteries Included</b></p>
+        <p>Action Sheets, Alerts, Badges, Side Menus, etc.</p>
+        <p><b>JS "services"</b></p>
+        <p>Persistence, Navigation, Deep Linking, etc</p>
+        <p><b>Everything one would expect for modern app development</b></p>
+      </section>
+
+      <section>
+        <p><b>Native Functionality</b></p>
+        <p>Access camera, file system, gps, etc</p>
+        <p>Use <b>Cordova</b> or <b>Electron</b></p>
+        <p>Ionic Native</p>
+      </section>
+
+      <section>
+        <p><b>Who are we?</b></p>
+      </section>
+
+      <section>
+        <p><b>The Team</b></p>
+        <p>Ionic is a team of 25ish in Madison, WI</p>
+        <p>Founded in 2012</p>
+        <p>We're well funded financially and will be around for many years to come</p>
+      </section>
+
+      <section>
+        <p><b>Me</b></p>
+        <p>Software Engineer for Ionic</p>
+        <p>Find me on Github</p>
+      </section>
+
+      <section>
+        <p><b>Before Ionic</b></p>
+        <p>Lead software engineer at Brady Corporation</p>
+        <p>7Summits and Pinpoint Technologies before that</p>
+      </section>
+
+      <section>
+        <p><b>Before Ionic</b></p>
+        <p>Lead developer on web services team for 12 months</p>
+        <p>Started and led mobile group, started using Ionic</p>
+        <p>Loved it, joined the Ionic team</p>
+      </section>
+
+      <section>
+        <p><b>Back to Ionic</b></p>
+      </section>
+
+      <section>
+        <p><b>Ionic V1</b></p>
+        <p>Just HTML, Sass, and JS!</p>
+        <p>Angular 1, ui-router</p>
+        <p>Huge, amazing community</p>
+      </section>
+
+      <section>
+        <p><b>The Stats</b></p>
+        <p>25K stars on Github</p>
+        <p>Top 30-40 most popular projects</p>
+        <p>2.6 Million Ionic apps built</p>
+      </section>
+
+      <section>
+        <p><b>Ionic V1</b></p>
+        <p>Empower developers everywhere</p>
+        <br/>
+        <p>"If you can make a website, you can make an app"!</p>
+      </section>
+
+      <section>
+        <p><b>Ionic V1</b></p>
+        <p>Getting a little long in the tooth</p>
+        <p>Silky smooth 60FPS is the new standard</p>
+      </section>
+
+      <section>
+        <p><b>Ionic V1</b></p>
+        <p>New "Mobile first" frameworks promise much better performance</p>
+        <p>With Angular 2 being a major reboot, we decided to do a major reboot too</p>
+      </section>
+
+      <section>
+        <p><b>Ionic 2</b></p>
+      </section>
+
+      <section>
+        <p><b>Ionic 2</b></p>
+        <p>Ionic V2 is built from the ground up</p>
+        <p>Took all of the feedback and lessons learned from V1</p>
+      </section>
+
+      <section>
+        <p><b>Ionic 2</b></p>
+        <p>Built hand-in-hand with the Angular 2 team at Google</p>
+        <p>Much better architecture, much better performance</p>
+      </section>
+
+      <section>
+        <p><b>Ionic V2</b></p>
+        <p>Angular 2</p>
+        <p>"Better" Sass support</p>
+        <p>Typescript</p>
+      </section>
+
+      <section>
+        <p><b>Soap Box</b></p>
+        <p>Modern JS is too complicated</p>
+        <p>Tool Overload</p>
+        <p>No standards, nothing built-in</p>
+      </section>
+
+      <section>
+        <p><b>Soap Box</b></p>
+        <p>Broccoli, Gulp, Npm, Grunt, Express, Mocha, Chai, etc etc etc</p>
+        <br/>
+        <p>No thanks</p>
+      </section>
+
+      <section>
+        <p><b>Soap Box</b></p>
+        <p>Ionic 2 is opinionated</p>
+        <p>As simple as possible</p>
+        <p>"Focus on app - not tooling"</p>
+      </section>
+
+      <section>
+        <p><b>Start Project</b></p>
+        <p>ionic start</p>
+        <p><b>Develop Project</b></p>
+        <p>ionic serve</p>
+      </section>
+
+      <section>
+        <p><b>Ionites love it!</b></p>
+        <p>The feedback on V2 has been amazing!</p>
+        <p>More components, better quality components</p>
+        <p>Incredibly simple!</p>
+      </section>
+
+      <section>
+        <p><b>Performance</b></p>
+        <p>Ionic was always fast, but now it flies</p>
+        <p>Angular 2 is ~5x faster in typical real world use cases</p>
+        <p>Laser focused on 60 FPS goal</p>
+      </section>
+
+      <section>
+        <p><b>Performance</b></p>
+        <p>All transitions/animations hardware accelerated</p>
+        <p>Feels native on "old" devices</p>
+      </section>
+
+      <section>
+        <p><b>Platforms</b></p>
+        <p>iOS, Android (phone and tablet)</p>
+        <p>Windows Universal (Traditional Windows, Phone)</p>
+        <p>Desktop Apps (Electron)</p>
+        <p>PWA & Traditional Web</p>
+      </section>
+
+      <section>
+        <p><b>Truly write once, run anywhere</b></p>
+      </section>
+
+      <section>
+        <p><b>Platform Continuity</b></p>
+        <p>Much easier to customize</p>
+        <p>Full Material Design support</p>
+        <p>iOS 9/10 look and feel</p>
+        <p>Full Windows Universal theme support</p>
+      </section>
+
+      <section>
+        <p><b>Tooling</b></p>
+        <p>Enterprise users wanted better tooling</p>
+        <p><b>As maintainers, we did too :)</b></p>
+        <p>Typescript instead of Javascript</p>
+      </section>
+
+      <section>
+        <p><b>Tooling</b></p>
+        <p>We have been dogfooding Ionic V2 and Typescript for months now</p>
+        <p>We have noticed a huge improvement in code quality, maintainability, etc.</p>
+        <p><b>Awesome experience so far</b></p>
+      </section>
+
+      <section>
+        <p><b>Tooling</b></p>
+        <p>Typescript is javascript superset</p>
+        <p>Static types are entirely optional</p>
+        <p>Large apps benefit a lot</p>
+      </section>
+
+      <section>
+        <p><b>Testing</b></p>
+        <p>Angular 2 is much easier to test</p>
+        <p>Since it's easier, more people will do it</p>
+        <p>WIP, but coming soon</p>
+      </section>
+
+      <section>
+        <p><b>App Size</b></p>
+        <p>Ionic V1 apps ~500-1000K</p>
+        <p>Fine for "Hybrid" app use case, bad for mobile web</p>
+        <p>Angular 2 to the Rescue</p>
+      </section>
+
+      <section>
+        <p><b>App Size</b></p>
+        <p>Aiming for < 50KB bundle size</p>
+        <p>Designed for the mobile web in places where 2G and 3G is still prominent</p>
+        <p>Blazing fast first load due to Angular Universal</p>
+      </section>
+
+      <section>
+        <p><b>We're so excited</b></p>
+        <p>On Beta 11</p>
+        <p>RC release ~2 weeks</p>
+      </section>
+
+      <section>
+        <p><b>Hack Night</b></p>
+        <p>Planning on doing a Hack Night in September</p>
+        <p>Let's all build Ionic apps together</p>
+      </section>
+
+      <section>
+        <p><b>Thank you!</b></p>
+        <p><b><code>&lt;/html&gt;</code></b></p>
+        <a href="https://twitter.com/danbucholtz" target="_blank">@danbucholtz</a>
+      </section>
+
+    </div>
+
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      slideNumber: true,
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      maxScale: 1,
+      minScale: 1,
+
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [{
+        src: 'lib/js/classList.js',
+        condition: function() {
+          return !document.body.classList;
+        }
+      }, {
+        src: 'plugin/markdown/marked.js',
+        condition: function() {
+          return !!document.querySelector('[data-markdown]');
+        }
+      }, {
+        src: 'plugin/markdown/markdown.js',
+        condition: function() {
+          return !!document.querySelector('[data-markdown]');
+        }
+      }, {
+        src: 'plugin/highlight/highlight.js',
+        async: true,
+        condition: function() {
+          return !!document.querySelector('pre code');
+        },
+        callback: function() {
+          hljs.initHighlightingOnLoad();
+        }
+      }, {
+        src: 'plugin/zoom-js/zoom.js',
+        async: true
+      }, {
+        src: 'plugin/notes/notes.js',
+        async: true
+      }]
+    });
+  </script>
+
+  <script>
+    function togglePlatform(target, version, platform) {
+      console.log(target, version, platform)
+      var demoTarget = $('#' + target + ' > div');
+      var demoFrame = $('#' + target + ' > div > iframe');
+      var currentSrc = demoFrame.attr('src');
+      var newSrc = currentSrc.split('?')[0] + '?ionicplatform=';
+      var currentPlatform = getPlatform(currentSrc);
+      demoFrame.attr('src', newSrc + platform);
+      console.log(demoTarget)
+      demoTarget.attr('class', version);
+      // demoTarget.addClass(version);
+    }
+
+    function getPlatform(iframeSrc) {
+      // return: 'ios' or android
+      if (iframeSrc.indexOf('android') > -1) {
+        return 'android';
+      }
+      return 'ios';
+    }
+  </script>
+</body>
+
+</html>
